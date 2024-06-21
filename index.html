@@ -95,7 +95,7 @@
           <h2 class="title is-3">본론</h2>
           <div class="content has-text-justified">
             <p>
-              <b>① 데이터 전처리</b><br>
+
               <b>① 데이터 전처리</b><br>
 데이터 분석 전, 주어진 데이터를 상세히 살펴보았다. 초기 데이터셋에서는 많은 결측치와 고혈압 여부에 영향을 미치지 않는 특성들이 존재했다. '기준년도', '가입자일련번호', '시도코드', '성별', '연령대코드(5세단위)', '허리둘레', '시력(좌)', '시력(우)', '청력(좌)', '청력(우)', '혈색소', '요단백', '혈청크레아티닌', '흡연상태', '음주여부', '구강검진수검여부', '치아우식증유무', '치석' 등의 feature를 제거하여 데이터를 정리했다. <br><br>
               <img src="static/images/1.png" alt="MY ALT TEXT"/>
@@ -133,7 +133,7 @@
           </div>
           <div class="content has-text-justified">
             <p>
-              <b>③ 실험결</b><br>
+     
               <img src="static/images/6.png" alt="MY ALT TEXT"/>
              주어진 데이터셋에서 XGBoost 모델은 매우 뛰어난 성능을 보였다. Macro F1-score, Accuracy, Macro Precision, Macro Recall 모두 1.000으로, 모델이 고혈압과 비고혈압을 모두 정확하게 분류했음을 나타낸다. 하지만 데이터의 양이 매우 크고 불균형한 경우, 모델의 과적합 문제에 주의해야 한다. 따라서 추가적인 데이터나 모델 세부 조정이 필요하다. 주어진 데이터는 양이 100만이 넘어 매우 크다 보니 overfitting이 일어난 것 같다.<br>
             </p>
